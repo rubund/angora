@@ -1,8 +1,9 @@
 Source: angora
 Section: unknown
 Priority: optional
-Maintainer: Ruben <ruben.undheim@gmail.com>
-Build-Depends: debhelper (>= 9), autotools-dev
+Maintainer: Ruben Undheim <ruben.undheim@gmail.com>
+Build-Depends: debhelper (>= 9), autotools-dev, libhdf5-cpp-8, libconfig++-dev,
+               libhdf5-dev, libblitz-dev, h5utils
 Standards-Version: 3.9.5
 Homepage: <insert the upstream URL, if relevant>
 #Vcs-Git: git://anonscm.debian.org/collab-maint/angora.git
