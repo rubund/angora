@@ -1,16 +1,17 @@
 Source: angora
-Section: unknown
+Section: utils
 Priority: optional
 Maintainer: Ruben Undheim <ruben.undheim@gmail.com>
 Build-Depends: debhelper (>= 9), autotools-dev, libhdf5-cpp-8, libconfig++-dev,
                libhdf5-dev, libblitz-dev, h5utils
-Standards-Version: 3.9.5
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/angora.git
-#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/angora.git;a=summary
+Standards-Version: 3.9.6
+Homepage: http://www.angorafdtd.org/
+Vcs-Browser: https://github.com/rubund/angora/tree/debian
+Vcs-Git: git://github.com/rubund/angora.git -b debian
 
 Package: angora
 Architecture: any
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: A free finite-difference time-domain (FDTD) electromagnetic simulation package
  <insert long description, indented with spaces>
